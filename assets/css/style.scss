@@ -1,0 +1,17 @@
+html body {
+  margin: 0px;
+  padding: 0px;
+}
+.wrapper1 {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(23, 1fr);
+  grid-template-rows: repeat(17, 1fr);
+}
+
+h1{
+  color: #441111;
+}
+code{
+  color: #2c473b;
+}
