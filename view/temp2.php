@@ -36,8 +36,8 @@
         color: #cccccc;
       }
       .container{
-        display: grid;
-        grid-template-columns: 1fr;
+        /*        display: grid;*/
+        /*        grid-template-columns: 1fr;*/
         width: 80%;
         max-width: 1280px;
         margin: 0 auto;
@@ -47,6 +47,7 @@
       }
       .container header{
         display: grid;
+        display: -ms-grid;
         min-height: 250px;
         background-image: url("../assets/img/JeanLucDenbroeder-Designer-Webdeveloper.jpg");
         background-repeat: no-repeat;
@@ -102,7 +103,6 @@
       }
       .container section{
         background-color: #fff;
-        /*padding: 20px;*/
         align-items: baseline; /*baseline; stretch;*/
       }
       .container article{
@@ -119,6 +119,20 @@
         background-color: rgb(32, 33, 45);
         color: #ffffff;
       }
+      .btn-group .button {
+        background-color: rgba(255,255,255, 0);
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        float: right;
+      }
+      .btn-group .button:hover {
+        background-color: #3e8e41;
+      }
       @media screen and (min-width: 720px)
       {
         .container ul{
@@ -129,18 +143,29 @@
         }
         .container section{
           display: grid;
+          display: -ms-grid;
           grid-template-rows: 1fr;
+          -ms-grid-rows: 1fr;
           grid-template-columns: 2fr 1fr;
+          -ms-grid-columns: 2fr 1fr;
           min-height: 250px;
         }
         .container section article{
           grid-column: 1 / span 1;
+          -ms-grid-column: 1;
+          -ms-grid-column-span: 1;
           grid-row: 1 / span 1;
+          -ms-grid-row: 1;
+          -ms-grid-row-span: 1;
           text-align: left;
         }
         .container section aside{
           grid-column: 2 / span 1;
+          -ms-grid-column: 2;
+          -ms-grid-column-span: 1;
           grid-row: 1 / span 1;
+          -ms-grid-row: 1;
+          -ms-grid-row-span: 1;
           padding: 30px 30px 30px 30px;
           border-radius: 0px 0px 0px 20px;
         }
@@ -149,17 +174,24 @@
       {
         .container section{
           display: grid;
-          /*grid-template-rows: 1fr;
-          grid-template-columns: 1fr;*/
+          display: -ms-grid;
         }
         .container section .article{
           grid-column: 1 / span 1;
+          -ms-grid-column: 1;
+          -ms-grid-column-span: 1;
           grid-row: 1 / span 1;
+          -ms-grid-row: 1;
+          -ms-grid-row-span: 1;
           text-align: left;
         }
         .container section aside{
           grid-column: 1 / span 1;
+          -ms-grid-column: 1;
+          -ms-grid-column-span: 1;
           grid-row: 2 / span 1;
+          -ms-grid-row: 2;
+          -ms-grid-row-span: 1;
           padding: 5px;
         }
       }
@@ -199,8 +231,8 @@
           <aside>
             <q>De la rigueur, de la passion, une envie d'apprendre tous les jours</q>
           </aside>
+          <img src="../assets/img/foot-interview-ecriture.jpg" alt="Jean Luc Denbroeder, Designer & WebDeveloper Freelance, mon Portfolio, quelques réalisations,...">
         </section>
-        <img src="../assets/img/foot-interview-ecriture.jpg" alt="Jean Luc Denbroeder, Designer & WebDeveloper Freelance, mon Portfolio, quelques réalisations,...">
         <footer>
           <!-- Facebook -->
           <a href="https://www.facebook.com/jeanluc.denbroeder" target="_blank"><i class="fa fa-facebook fa-2x icone-fontawesome"></i></a>
