@@ -1,9 +1,45 @@
+<?php
+if ( (isset($_GET['color'])) && (!empty($_GET['color'])) ){
+  $colorNr = $_GET['color'];
+}
+else {
+  $colorNr = 1;
+}
+if ($colorNr == 1){
+  $colorBackground = "rgb(116, 116, 116)";
+
+}
+if ($colorNr == 2){
+  $colorBackground = "#402424";
+
+}
+if ($colorNr == 3){
+  $colorBackground = "#36554f";
+
+}
+if ($colorNr == 4){
+  $colorBackground = "#b2d2d1";
+
+}
+if ($colorNr == 5){
+  $colorBackground = "#372510";
+
+}
+?>
 <!DOCTYPE html>
 <html lang="fr">
   <head>
     <style>
+      .temp{
+        color: #402424;
+        color: #36554f;
+        color: #372510;
+        color: #b2d2d1;
+      }
+    </style>
+    <style>
       body{
-        background-color: rgb(116, 116, 116);
+        background-color: <?= $colorBackground; ?>;
         padding: 0px;
         margin: 0px;
       }
@@ -35,17 +71,15 @@
         padding-right: 20px;
         color: #cccccc;
       }
-      .container{
-        /*        display: grid;*/
-        /*        grid-template-columns: 1fr;*/
+      main{
+        display: grid;
+        display: -ms-grid;
+        grid-template-columns: 1fr;
         width: 80%;
         max-width: 1280px;
         margin: 0 auto;
       }
-      .container > *{
-
-      }
-      .container header{
+      header{
         display: grid;
         display: -ms-grid;
         min-height: 250px;
@@ -58,7 +92,28 @@
         background-size:cover;
         background-position:center;
       }
-      .container header #citation{
+      header #color-choice{
+        justify-self: start;
+        align-self: flex-start;
+        padding: 0px;
+      }
+      header ul{
+        margin: 0px;
+      }
+      header ul li{
+        display: block;
+        display: inline-block;
+        list-style: none; /* pour enlever les puces sur IE7 */
+        list-style-type: none;
+        margin: 1px;
+        padding: 3px 6px;
+        background-color: #101010;
+        font-size: 10px;
+        color: #909090;
+        text-decoration: none;
+        border-radius: 50%;
+      }
+      header #citation{
         justify-self: end;
         align-self: flex-end;
         text-align: right;
@@ -76,122 +131,78 @@
         font-style: italic;
         font-size: 16px;
       }
-      .container nav{
+      nav{
+        display: grid;
+        display: -ms-grid;
+        justify-content: flex-end;
+        align-items: stretch;
         background-color: rgb(32, 33, 45);
-        text-align: right;
         font-size: 16px;
         font-weight: 600;
       }
-      .container ul{
+      nav ul{
         flex-wrap: wrap;
         list-style-type: none;
         margin: 0px;
-        padding: 0px;
         text-shadow: 1px 1px 1px #323131;
         font-family: Arial;
         color: rgb(116, 116, 116);
       }
-      ul li a{
+      nav ul li{
+        float:left; /*pour IE*/
+        padding: 10px;
+        background-color: #333d3d;
+      }
+      nav ul li a{
         color: #ffffff;
         font-size: 14px;
-        padding: 10px 10px 10px 10px;
         text-decoration: none;
       }
-      ul li a:hover {
-        color: #d1d1d1;
+      nav ul li a:hover {
+        color: #adb5c6;
         text-decoration: none;
       }
-      .container section{
+      section{
+        display: grid;
         background-color: #fff;
         align-items: baseline; /*baseline; stretch;*/
       }
-      .container article{
+      article{
         padding: 10px 30px 10px 20px;
       }
-      .container aside{
+      aside{
         align-self: self-start;
         background-color: #d4d4d4;
         text-align: right;
       }
-      .container footer{
+      footer{
         padding: 10px;
         text-align: right;
         background-color: rgb(32, 33, 45);
         color: #ffffff;
       }
-      .btn-group .button {
-        background-color: rgba(255,255,255, 0);
-        border: none;
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        cursor: pointer;
-        float: right;
-      }
-      .btn-group .button:hover {
-        background-color: #3e8e41;
-      }
+      /* ECRAN LARGE */
       @media screen and (min-width: 720px)
       {
-        .container ul{
-          display:inline-flex;
-        }
-        ul li{
-          padding: 10px;
-        }
-        .container section{
-          display: grid;
-          display: -ms-grid;
+        section{
           grid-template-rows: 1fr;
-          -ms-grid-rows: 1fr;
           grid-template-columns: 2fr 1fr;
-          -ms-grid-columns: 2fr 1fr;
-          min-height: 250px;
+          min-height: 350px;
         }
-        .container section article{
-          grid-column: 1 / span 1;
-          -ms-grid-column: 1;
-          -ms-grid-column-span: 1;
-          grid-row: 1 / span 1;
-          -ms-grid-row: 1;
-          -ms-grid-row-span: 1;
-          text-align: left;
-        }
-        .container section aside{
+        section aside{
           grid-column: 2 / span 1;
-          -ms-grid-column: 2;
-          -ms-grid-column-span: 1;
           grid-row: 1 / span 1;
-          -ms-grid-row: 1;
-          -ms-grid-row-span: 1;
           padding: 30px 30px 30px 30px;
           border-radius: 0px 0px 0px 20px;
         }
       }
+      /* ECRAN SMALL */
       @media screen and (max-width: 720px)
       {
-        .container section{
-          display: grid;
-          display: -ms-grid;
+        #menu{
+          display: none;
         }
-        .container section .article{
-          grid-column: 1 / span 1;
-          -ms-grid-column: 1;
-          -ms-grid-column-span: 1;
-          grid-row: 1 / span 1;
-          -ms-grid-row: 1;
-          -ms-grid-row-span: 1;
-          text-align: left;
-        }
-        .container section aside{
-          grid-column: 1 / span 1;
-          -ms-grid-column: 1;
-          -ms-grid-column-span: 1;
-          grid-row: 2 / span 1;
-          -ms-grid-row: 2;
-          -ms-grid-row-span: 1;
+        section aside{
           padding: 5px;
         }
       }
@@ -204,46 +215,55 @@
   </head>
   <body>
     <main>
-      <div class="container">
-        <header>
-          <div id="citation">
-            <span class="name"><strong>Jean Luc Denbroeder</strong></span><br>
-            <strong>Designer/WebDeveloper</strong><br>
-            <span class="tel"><strong>0479 06 38 09</strong></span>
-          </div>
-        </header>
-        <nav>
+      <header>
+        <div class="color-choice">
           <ul>
-            <li>Accueil</li>
-            <li><a href="qui-suis-je.html">Qui suis-je?</a></li>
-            <li><a href="portfolio.html">Mon Portfolio</a></li>
-            <li><a href="demo.html">Démos</a></li>
-            <li><a href="contact.html">Contactez-moi</a></li>
+            <li><a href="temp2.php?color=1">1</a></li>
+            <li><a href="temp2.php?color=2">2</a></li>
+            <li><a href="temp2.php?color=3">3</a></li>
+            <li><a href="temp2.php?color=4">4</a></li>
+            <li><a href="temp2.php?color=5">5</a></li>
           </ul>
-        </nav>
-        <section>
-          <article>
-            <h2>Designer</h2>
-            <p>Ma créativité et mon expérience mon permis d'acquérir des compétences en infographie, que ce soit des réalisations d'imprimées (flyers, brochures, plaquettes commerciales, publicités...) ou du WebDesign, référencement, visuels eMarketing,... </p><br>
-            <h2>WebDeveloper</h2>
-            <p>Mes connaissances et mon savoir-faire dans la programmation destinées aux plateformes Internet, sont des atouts complémentaires pour toutes conceptions FrontEnd / BackEnd...</p>
-          </article>
-          <aside>
-            <q>De la rigueur, de la passion, une envie d'apprendre tous les jours</q>
-          </aside>
-          <img src="../assets/img/foot-interview-ecriture.jpg" alt="Jean Luc Denbroeder, Designer & WebDeveloper Freelance, mon Portfolio, quelques réalisations,...">
-        </section>
-        <footer>
-          <!-- Facebook -->
-          <a href="https://www.facebook.com/jeanluc.denbroeder" target="_blank"><i class="fa fa-facebook fa-2x icone-fontawesome"></i></a>
-          <!-- Linkedin -->
-          <a href="https://www.linkedin.com/in/jean-luc-denbroeder-4174ab69/" target="_blank">
-            <i class="fa fa-linkedin fa-2x icone-fontawesome"></i></a>
-          <!-- GitHub-->
-          <a href="https://github.com/jldenbroeder" target="_blank">
-            <i class="fa fa-github fa-2x icone-fontawesome"></i></a>
-        </footer>
-      </div>
+        </div>
+        <div id="citation">
+          <span class="name"><strong>Jean Luc Denbroeder</strong></span><br>
+          <strong>Designer/WebDeveloper</strong><br>
+          <span class="tel"><strong>0479 06 38 09</strong></span>
+        </div>
+      </header>
+      <nav>
+       <div id="menu">
+        <ul>
+          <li>Accueil</li>
+          <li><a href="qui-suis-je.html">Qui suis-je?</a></li>
+          <li><a href="portfolio.html">Mon Portfolio</a></li>
+          <li><a href="demo.html">Démos</a></li>
+          <li><a href="contact.html">Contactez-moi</a></li>
+        </ul>
+       </div>
+      </nav>
+      <section>
+        <article>
+          <h2>Designer</h2>
+          <p>Ma créativité et mon expérience mon permis d'acquérir des compétences en infographie, que ce soit des réalisations d'imprimées (flyers, brochures, plaquettes commerciales, publicités...) ou du WebDesign, référencement, visuels eMarketing,... </p><br>
+          <h2>WebDeveloper</h2>
+          <p>Mes connaissances et mon savoir-faire dans la programmation destinées aux plateformes Internet, sont des atouts complémentaires pour toutes conceptions FrontEnd / BackEnd...</p>
+        </article>
+        <aside>
+          <q>De la rigueur, de la passion, une envie d'apprendre tous les jours</q>
+        </aside>
+      </section>
+      <img src="../assets/img/foot-interview-ecriture.jpg" alt="Jean Luc Denbroeder, Designer & WebDeveloper Freelance, mon Portfolio, quelques réalisations,...">
+      <footer>
+        <!-- Facebook -->
+        <a href="https://www.facebook.com/jeanluc.denbroeder" target="_blank"><i class="fa fa-facebook fa-2x icone-fontawesome"></i></a>
+        <!-- Linkedin -->
+        <a href="https://www.linkedin.com/in/jean-luc-denbroeder-4174ab69/" target="_blank">
+          <i class="fa fa-linkedin fa-2x icone-fontawesome"></i></a>
+        <!-- GitHub-->
+        <a href="https://github.com/jldenbroeder" target="_blank">
+          <i class="fa fa-github fa-2x icone-fontawesome"></i></a>
+      </footer>
     </main>
   </body>
 </html>
