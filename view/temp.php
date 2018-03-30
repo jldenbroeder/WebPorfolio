@@ -34,11 +34,13 @@ $nbrButton = 4;
 
       MAIN{
         display: grid;
+        display: -ms-grid;
         justify-items: center;
         background-color: rgba(24, 28, 28, 0.9);
       }
       .container{
         display: grid;
+        display: -ms-grid;
         grid-template-columns: repeat(32, 1fr);
         grid-template-rows: repeat(18, 1fr);
         width: 100%;
