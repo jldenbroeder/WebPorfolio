@@ -14,6 +14,7 @@ html, body {
 main {
   width: 80%;
   max-width: 1280px;
+  min-width: 320px;
   background-color: #17161c;
 }
 p{
@@ -98,12 +99,9 @@ nav{
   font-weight: 600;
 }
 article{
-  width: 70%;
-  padding: 0px 20px 10px 20px;
   background-color: #ffffff;
 }
 aside{
-  width: 30%;
   background-color: #ffffff;
 }
 aside #quote{
@@ -111,7 +109,6 @@ aside #quote{
   padding: 20px;
   text-align: right;
   border-bottom-left-radius: 30px;
-
 }
 aside q{
   font-family: Georgia, "Times New Roman", serif;
@@ -134,20 +131,26 @@ section {
   -ms-flex-direction: row;
   flex-direction: row;
 }
-  section aside{
-    grid-column: 2 / span 1;
-    grid-row: 1 / span 1;
-    padding: 30px 30px 30px 30px;
-    border-radius: 0px 0px 0px 20px;
+  article{
+  width: 70%;
+  padding: 0px 20px 10px 20px;
+}
+  aside{
+width: 30%;
   }
 }
+
 /* ECRAN SMALL */
 @media screen and (max-width: 720px)
 {
-  #menu{
-    display: none;
-  }
-  section aside{
-    padding: 5px;
-  }
+  main {
+  width: 100%;
+}
+    article{
+  padding: 5px;
+}
+  aside #quote{
+  border-radius: 0px;
+}
+
 }
