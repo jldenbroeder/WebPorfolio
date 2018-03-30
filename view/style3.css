@@ -1,0 +1,153 @@
+html, body {
+  width: 100%;
+  height:100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #56626f;
+}
+
+main {
+  width: 80%;
+  max-width: 1280px;
+  background-color: #17161c;
+}
+p{
+  font: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+h2{
+  color: #4b0000;
+}
+h3{
+  color: #622c2c;
+}
+a{
+  text-decoration: none;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+.name, .tel{
+  font: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #4b0000;
+}
+
+.icone-fontawesome{
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #cccccc;
+}
+header {
+  display: flex;
+  justify-content : space-between;
+  background-image: url("../assets/img/JeanLucDenbroeder-Designer-Webdeveloper.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
+  min-height: 250px;
+}
+header #color-choice{
+  align-self: flex-end;
+  padding: 0px;
+}
+header ul{
+  margin: 0px;
+}
+header ul li{
+  display: block;
+  display: inline-block;
+  list-style: none; /* pour enlever les puces sur IE7 */
+  list-style-type: none;
+  margin: 1px;
+  padding: 3px 6px;
+  background-color: #101010;
+  font-size: 10px;
+  color: #909090;
+  text-decoration: none;
+  border-radius: 50%;
+}
+header #information{
+  align-self: flex-end;
+  padding: 20px 40px;
+  background-color: rgb(255, 255, 255, 0.9);
+  border-radius: 20px 0px 0px 0px;
+}
+header q{
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-size: 24px;
+}
+nav{
+  display: grid;
+  display: -ms-grid;
+  justify-content: flex-end;
+  align-items: stretch;
+  background-color: rgb(32, 33, 45);
+  font-size: 16px;
+  font-weight: 600;
+}
+article{
+  width: 70%;
+  padding: 0px 20px 10px 20px;
+  background-color: #ffffff;
+}
+aside{
+  width: 30%;
+  background-color: #ffffff;
+}
+aside #quote{
+  background-color: #acbfd2;
+  padding: 20px;
+  text-align: right;
+  border-bottom-left-radius: 30px;
+
+}
+aside q{
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: italic;
+  font-size: 16px;
+}
+footer {
+  background-color: #17161c;
+}
+
+/* ECRAN LARGE */
+@media screen and (min-width: 720px)
+{
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+  section aside{
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+    padding: 30px 30px 30px 30px;
+    border-radius: 0px 0px 0px 20px;
+  }
+}
+/* ECRAN SMALL */
+@media screen and (max-width: 720px)
+{
+  #menu{
+    display: none;
+  }
+  section aside{
+    padding: 5px;
+  }
+}
