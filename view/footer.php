@@ -1,3 +1,3 @@
-<div id="foot">
-FOOT
-</div>
+<footer>
+  FOOTER
+</footer>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="icon" type="image/png" href="images/favicon.png" />
     <meta charset="utf-8">
@@ -17,13 +17,15 @@
     <main>
       <header>
         <div id="color-choice">
-          <ul>
-            <li><a href="temp2.php?color=1">1</a></li>
-            <li><a href="temp2.php?color=2">2</a></li>
-            <li><a href="temp2.php?color=3">3</a></li>
-            <li><a href="temp2.php?color=4">4</a></li>
-            <li><a href="temp2.php?color=5">5</a></li>
-          </ul>
+          <!--
+<ul>
+<li><a href="temp2.php?color=1">1</a></li>
+<li><a href="temp2.php?color=2">2</a></li>
+<li><a href="temp2.php?color=3">3</a></li>
+<li><a href="temp2.php?color=4">4</a></li>
+<li><a href="temp2.php?color=5">5</a></li>
+</ul>
+-->
         </div>
         <div id="information">
           <span class="name"><strong>Jean Luc Denbroeder</strong></span><br> <strong>Designer/WebDeveloper</strong><br>
@@ -31,7 +33,12 @@
         </div>
       </header>
       <nav>
-        NAVBAR
+        <button class="button">Accueil</button>
+        <button class="button">Qui suis-je?</button>
+        <button class="button">Mon Portfolio</button>
+        <button class="button">Contactez-moi</button>
+        <button class="button" id="hamburger" onclick="menuOpen()">&#9776;</button>
+        <button class="button" id="hamburger-close" onclick="menuClose()">X</button>
       </nav>
       <section>
         <article>
@@ -49,7 +56,22 @@
         FOOTER</footer>
     </main>
 
-
+    <script>
+      function menuOpen() {
+        var listButton = document.getElementsByClassName("button");
+        for (i = 0; i < listButton.length; i++){
+          listButton[i].style.display='block';
+        } document.getElementById("hamburger").style.display='none';
+      }
+      function menuClose() {
+        var listButton = document.getElementsByClassName("button");
+        for (i = 0; i < listButton.length; i++){
+          listButton[i].style.display='none';
+        } 
+        document.getElementById("hamburger").style.display='block';
+        document.getElementById("hamburger-close").style.display='none';
+      }
+    </script>
 
   </body>
 </html>

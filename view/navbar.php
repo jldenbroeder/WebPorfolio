@@ -1,17 +1,8 @@
-<div class="topnav" id="myTopnav">
-  <a href="index.php" class="active">Accueil</a>
-  <a href="?">News</a>
-  <a href="#contact">Contact</a>
-  <div class="dropdown">
-    <button class="dropbtn">Dropdown 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-    </div>
-  </div> 
-  <a href="#about">About</a>
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
+<nav>
+  <button class="button"><a class="link-nav" href="?page=presentation">Accueil</a></button>
+  <button class="button">Qui suis-je?</button>
+  <button class="button">Mon Portfolio</button>
+  <button class="button">Contactez-moi</button>
+  <button class="button" id="hamburger" onclick="menuOpen()">&#9776;</button>
+  <button class="button" id="hamburger-close" onclick="menuClose()">X</button>
+</nav>
