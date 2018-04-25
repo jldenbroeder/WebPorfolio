@@ -1,0 +1,32 @@
+html, body {
+  width: 100%;
+  height:100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #56626f;
+}
+main {
+  width: 80%;
+  max-width: 1280px;
+  min-width: 320px;
+  background-color: #17161c;
+}
+/* MEDIA QUERY MEDIUM */
+@media screen and (min-width: 600px) and (max-width: 960px) 
+{
+  main {
+    width: 100%;
+  }
+}
+/* MEDIA QUERY SMALL */
+@media screen and (max-width: 600px)
+{
+  main {
+    width: 100%;
+  }
+}

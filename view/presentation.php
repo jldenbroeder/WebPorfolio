@@ -10,16 +10,20 @@ $description = "Présentation de mon parcours ent tant que Designer expériment�
 <section>
   <article>
     <h2>Designer</h2>
-    <p>Ma créativité et mon expérience mon permis d'acquérir des compétences en infographie, que ce soit des réalisations d'imprimées (flyers, brochures, plaquettes commerciales, publicités...) ou du WebDesign, référencement, visuels eMarketing,... </p><br>
+    <p>Ma créativité et mon expérience m'ont permis d'acquérir des compétences en infographie, que ce soit de réalisations d'imprimées (flyers, brochures, plaquettes commerciales, publicités...) ou de la création complète de sites Internet complémentés d'une optimisation aux référencements, ainsi que des visuels eMarketing,... </p>
+    <p>Une bonne maitrise du CMS WordPress accompagné du thème DIVI sont mes préférences en WebDesign.</p>
     <h2>WebDeveloper</h2>
-    <p>Mes connaissances et mon savoir-faire dans la programmation destinées aux plateformes Internet, sont des atouts complémentaires pour toutes conceptions FrontEnd / BackEnd...</p>
+    <p>Mes connaissances et mon savoir-faire dans la programmation destinées aux plateformes Internet, sont des atouts complémentaires pour toutes conceptions FrontEnd / BackEnd... HTML, CSS, Javascript et PHP sont des atouts aux réalisations Web.</p>
   </article>
   <aside>
-    <div id="quote">
-      <q>De la rigueur, de la passion, une envie d'apprendre tous les jours</q></div>
+    <?php include('aside-passion.php'); ?>
+    <?php include('aside-cv.php'); ?>
+    <?php include('aside-documents.php'); ?>
+    <div>&nbsp;</div>
+    <div></div>
   </aside>
 </section>
-
+<img src="assets/img/foot-encodage.jpg" alt="Mon expérience en Infographie et mes connaissances en WebDéveloppement, un principal atout pour la création Web.">
 <!-- FIN DE ZONE A PERSONNALISER -->
 
 <?php $content = ob_get_clean(); ?>

@@ -1,0 +1,22 @@
+footer {
+  background-color: #17161c;
+  padding: 20px;
+}
+.link-foot{
+  font-family: arial;
+  font-size: 14px;
+}
+a.link-foot:link {
+  color: #ffffff;
+}
+a.link-foot:hover {
+  color: #c6c4c4;
+}
+a.link-foot:visited {
+  color: #ffffff;
+}
+.icone-fontawesome{
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #cccccc;
+}
