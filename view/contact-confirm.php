@@ -11,13 +11,10 @@ $description = "Présentation de mon parcours ent tant que Designer expériment�
   <article>
     <!-- EXPERIENCE  -->
     <div class="cv-title">
-      Contactez-moi</div>
-    <div class="cv-text"><br>
-      <span class="name"><strong>Jean Luc Denbroeder</strong></span><br> <strong>Designer / WebDeveloper</strong><br>
-      <span class="tel"><strong>0479 06 38 09</strong></span><br><br>
-      <strong>Email: 
-        <a href="mailto:jldenbroeder@gmail.com">jldenbroeder[at]gmail</a></strong>
-      <br><br>
+      Contact, confirmation</div>
+    <div class="cv-text">
+     <br>
+      Merci pour votre message, je vous contacterai prochainement.
     </div>
   </article>
   <aside>

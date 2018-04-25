@@ -18,12 +18,10 @@ p{
   font: Arial, Helvetica, sans-serif;
   font-size: 14px;
 }
-h2{
+h2, h3{
   color: #4b0000;
 }
-h3{
-  color: #622c2c;
-}
+
 a{
   text-decoration: none;
 }
@@ -117,11 +115,13 @@ aside #documents{
 }
 .col1 {
   width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
 }
 .col2 {
   width: 50%;
   box-sizing: border-box;
-  padding: 20px;
+  padding: 10px;
 }
 
 /* ECRAN LARGE */
