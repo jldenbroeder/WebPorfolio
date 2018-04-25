@@ -119,7 +119,10 @@ aside #documents {
   width: 100%; }
 
 .col2 {
-  width: 50%; }
+  width: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px; }
 
 /* ECRAN LARGE */
 /* MEDIA QUERY MEDIUM */
@@ -129,18 +132,23 @@ aside #documents {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column; }
+    flex-direction: column;
+    width: 100%; }
 
-  article {
+  article, .content-col {
     width: 100%;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     padding: 5px; }
 
   aside {
+    width: 100%;
+    margin: 0px; }
+
+  .col2 {
     width: 100%; }
 
-  aside #quote, aside #cv-top, aside #cv-bottom {
+  aside #quote, aside #cv-top, aside #cv-bottom, aside #documents {
     margin: 0px;
     border-radius: 0px; } }
 
