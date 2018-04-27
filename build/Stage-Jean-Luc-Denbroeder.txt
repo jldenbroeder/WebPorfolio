@@ -1,14 +1,18 @@
-Cher Monsieur,
+Madame, Monsieur,
 
 Dans le cadre de ma formation de Web Développeur chez BeCode.org, je souhaite effectuer un stage d'un mois ou plus à partir de début juin 2018.
 Le but du stage est de me permettre de mettre en pratique toutes mes connaissances acquises et ce dans une équipe professionnelle.
 
-J'ai de très bonnes connaissances du HTML, CSS (FlexBox et Grid Layout), ainsi que PHP + MySql (PDO/CRUD), à cela s'ajoute de bonnes notions en JS, DOM, JQuery, Canvas, MVC, Git & Github...
+J'ai de très bonnes connaissances du HTML, CSS (FlexBox et Grid Layout), ainsi que PHP + MySQL (PDO/CRUD), à cela s'ajoute de bonnes notions en JS, DOM, jQuery, Canvas, MVC, Git & Github...
 
-Actuellement, je perfectionne le PHP en POO et m'informe de l'utilisation de Frameworks.
+L'utilisation du CMS WordPress, du théme DIVI et de SmartSlider n'ont plus de secret pour moi.
 
-Je tiens à rajouter qu’en tant qu’infographiste professionnel, je maîtrise très bien les outils graphiques tels
+Actuellement, je m'intéresse à la POO et à l'utilisation de Frameworks.
+
+Je tiens aussi à rajouter qu’en tant qu’infographiste professionnel, je maîtrise très bien les outils graphiques tels
 qu'Adobe Photoshop, Illustrator et InDesign et que mon expérience et ma créativité originale en tant que Designer est un atout supplémentaire.
 
-En vous remerciant de l'attention que vous avez portée à ma demande, je vous prie de croire,
-Monsieur, en l'expression de ma parfaite considération.
+N'hésitez pas à consulter mon Portfolio afin de de vous rendre compte de mes performances: 
+https://portfolio-jl.herokuapp.com/?page=presentation
+
+En vous remerciant de l'attention que vous avez portée à ma demande, je vous prie de croire, Monsieur, en l'expression de ma parfaite considération.

@@ -1,0 +1,29 @@
+Demande de stage WebDesigner & Development
+
+Cher Madame Keustermans,
+
+Suite à un travail d'interview de Madame Florence Gheret et après notre sympathique discussion, je me permets de vous contacter afin de vous proposer ma candidature à un stage de Designer et développeur au sein de votre entreprise.
+
+Dans le cadre de ma formation de Web Développeur chez BeCode.org, je souhaite effectuer un stage d'un mois ou plus à partir de début juin 2018.
+Le but du stage est de me permettre de mettre en pratique toutes mes connaissances acquises et ce dans une équipe professionnelle.
+
+J'ai de très bonnes connaissances du HTML, CSS (FlexBox et Grid Layout), ainsi que PHP + MySql (PDO/CRUD), à cela s'ajoute de bonnes notions en JS, DOM, JQuery, Canvas, MVC, Git & Github...
+
+Actuellement, je perfectionne le PHP en POO et m'informe de l'utilisation de Frameworks.
+
+Je tiens à rajouter qu’en tant qu’infographiste professionnel, je maîtrise très bien les outils graphiques tels qu'Adobe Photoshop, Illustrator et InDesign et que mon expérience et ma créativité originale en tant que Designer est un atout supplémentaire.
+
+J'ai acquis une parfaite utilisation du CMS WordPress que vous pourrez constater sur mon Portfolio que je vous invite à consulter:
+https://portfolio-jl.herokuapp.com/?page=presentation
+
+Vous y trouverez aussi les documents nécessaires comme mon CV, ma lettre de motivation et le formulaire de stage.
+
+N'hésitez pas à me contacter pour plus d'informations.
+
+En vous remerciant de l'attention que vous avez portée à ma demande, je vous prie de croire,
+Madame, en l'expression de ma parfaite considération.
+
+-- 
+Jean Luc Denbroeder, Designer & Developer
+50 rue Twyeninck, 1130 Bruxelles
+0479 06 38 09 / 02 241 97 97
