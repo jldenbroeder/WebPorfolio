@@ -39,7 +39,7 @@ $description = "Présentation de mon parcours ent tant que Designer expériment�
     <div></div>
   </aside>
 </section>
-<img src="assets/img/foot-encodage.jpg" alt="Mon expérience en Infographie et mes connaissances en WebDéveloppement, un principal atout pour la création Web.">
+<img src="assets/img/foot-ecriture.jpg" alt="Mon expérience en Infographie et mes connaissances en WebDéveloppement, un principal atout pour la création Web.">
 <!-- FIN DE ZONE A PERSONNALISER -->
 
 <?php $content = ob_get_clean(); ?>

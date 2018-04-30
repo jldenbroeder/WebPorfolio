@@ -11,12 +11,17 @@ $description = "Présentation de mon parcours ent tant que Designer expériment�
   <article>
     <p>Madame, Monsieur,</p>
     <p>
-      Dans le cadre de ma formation de Web Développeur chez BeCode.org, je souhaite effectuer un stage d'un mois ou plus à partir de début juin 2018 au plus tard.
-      Le but du stage est de me permettre de mettre en pratique toutes mes connaissances acquises et ce dans une équipe professionnelle.
+      Dans le cadre de ma formation de Web Développeur chez BeCode.org, je souhaite effectuer un stage d'un mois ou plus à partir de début juin 2018.
+Le but du stage est de me permettre de mettre en pratique toutes mes connaissances acquises et ce dans une équipe professionnelle.
     </p><p>
-    J'ai de très bonnes connaissances du HTML, CSS (FlexBox et Grid Layout), ainsi que PHP + MySql (PDO/CRUD), à cela s'ajoute de bonnes notions en JS, DOM, JQuery, Canvas, MVC, Git & Github... Ainsi  que de bonnes notions de PHP en POO et de Frameworks.
+    J'ai de très bonnes connaissances du HTML, CSS (FlexBox et Grid Layout), ainsi que PHP + MySQL (PDO/CRUD), à cela s'ajoute de bonnes notions en JS, DOM, jQuery, Canvas, MVC, Git & Github...
     </p><p>
-    Je tiens à rajouter qu’en tant qu’infographiste professionnel, je maîtrise très bien les outils graphiques tels qu'Adobe Photoshop, Illustrator et InDesign et que mon expérience et ma créativité originale en tant que Designer est un atout supplémentaire.
+    L'utilisation du CMS WordPress, du théme DIVI et de SmartSlider n'ont plus de secret pour moi.
+    </p>
+    <p>Actuellement, je m'intéresse à la POO et à l'utilisation de Frameworks.</p>
+    <p>
+    Je tiens aussi à rajouter qu’en tant qu’infographiste professionnel, je maîtrise très bien les outils graphiques tels
+qu'Adobe Photoshop, Illustrator et InDesign et que mon expérience et ma créativité originale en tant que Designer est un atout supplémentaire.
     </p><p>
     En vous remerciant de l'attention que vous avez portée à ma demande, je vous prie de croire,
     Monsieur, en l'expression de ma parfaite considération.</p>
