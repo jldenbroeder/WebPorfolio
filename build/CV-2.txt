@@ -1,0 +1,35 @@
+<!DOCTYPE CV>
+ <meta name=" Jean Luc Denbroeder ">
+ funtion (" UX/UI Designer && Web Developer ");
+ require (" 0479 09 06 38 ") !IMPORTANT;
+ <a href="mailto:jldenbroeder@gmail.com">
+
+ if (Expériences != 0) {
+>= 2004
+Infographiste freelance (indépendant), création prépresse, 3 ans en imprimerie, réalisation de site internet, développement PHP, CSS,... CMS WordPress (Responsive), email Marketing (création, envois,...).
+1999-2004 
+Responsable prépresse, création publicitaire, “SPMS Mailings”, Rixensart.
+1998-99 
+Webdesigner, création de sites Internet «Decade», Ixelles.
+1998 
+Infographiste «CPC Graphic», «Retro Edition», Schaerbeek.
+1997
+Opérateur P.A.O «Cives Europe» Bruxelles.
+1995
+Création et réalisation graphique 2D et 3D, assemblage de niveaux, traitement de sons et musiques, test et déboguage de jeux vidéo «Edisys», W St Lambert.
+1992
+Infographiste, coloriste et montage d’animation «Little Big One», W St Lambert.
+1989-97
+Gérant d’agence hippique «Tiercé franco-belge».
+
+ switch (Compétences) {
+Software: [ Adobe: "Photoshop", "InDesign", "Illustrator",... ];
+Code: [ HTML, CSS (FlexBox, Grid Layout), PHP/MySQL (CRUD/PDO), MVC, Javascript, DOM, Canvas, jQuery, BootStrap,... ];
+CMS: [ WordPress + DIVI builder, SmartSlider ];
+Système: [ Mac OS, Windows, Ubuntu/Linux ];
+nobreak;
+
+
+
+
+

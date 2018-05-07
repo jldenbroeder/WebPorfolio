@@ -11,10 +11,11 @@ $description = "Présentation de mon parcours ent tant que Designer expériment�
   <article>
     <!-- EXPERIENCE  -->
     <div class="cv-title">
-      Expérience</div>
+      Expériences</div>
     <div class="cv-text">
       depuis 2004<br>
-      Infographiste freelance (indépendant), création prépresse, suivit de A à Z, (pour imprimerie), réalisation de site internet, développement PHP, CSS,... CMS WordPress (Responsive), email Marketing (création, envois,...).
+      Infographiste freelance (indépendant), création prépresse, 3 ans en imprimerie, réalisation de site internet, développement PHP, CSS,...		
+      CMS WordPress (Responsive), email Marketing (création, envois,...).
       <hr>
       1999-2004<br>
       Responsable prépresse, création publicitaire, “SPMS Mailings”, Rixensart.

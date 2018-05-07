@@ -10,10 +10,10 @@ $description = "Présentation de mon parcours ent tant que Designer expériment�
 <section>
   <article>
     <h2>Designer</h2>
-    <p>Ma créativité et mon expérience m'ont permis d'acquérir des compétences en infographie, que ce soit de réalisations d'imprimées (flyers, brochures, plaquettes commerciales, publicités...) ou de la création complète de sites Internet complémentés d'une optimisation aux référencements, ainsi que des visuels eMarketing,... </p>
+    <p>Ma créativité et mon expérience m'ont permis d'acquérir des compétences en infographie, que ce soit des réalisations d'imprimées (flyers, brochures, plaquettes commerciales, publicités...) ou de la création complète de sites Internet complémentés d'une optimisation aux référencements, ainsi que des visuels eMarketing,... </p>
     <p>Une bonne maitrise du CMS WordPress accompagné du thème DIVI sont mes préférences en WebDesign.</p>
     <h2>WebDeveloper</h2>
-    <p>Mes connaissances et mon savoir-faire dans la programmation destinées aux plateformes Internet, sont des atouts complémentaires pour toutes conceptions FrontEnd / BackEnd... HTML, CSS, Javascript et PHP sont des atouts aux réalisations Web.</p>
+    <p>De très bonnes connaissances et un savoir-faire dans la programmation destinées aux plateformes Internet, sont des atouts complémentaires pour toutes conceptions FrontEnd / BackEnd... HTML, CSS, Javascript et PHP.</p>
   </article>
   <aside>
     <?php include('aside-passion.php'); ?>

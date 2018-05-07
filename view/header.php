@@ -10,6 +10,6 @@
   </div>
   <div id="information">
     <span class="name"><strong>Jean Luc Denbroeder</strong></span><br> <strong>Designer / WebDeveloper</strong><br>
-    <span class="tel"><strong>0479 06 38 09</strong></span>
+    <span class="tel"><strong>0479 09 06 38</strong></span>
   </div>
 </header>

@@ -19,7 +19,7 @@ Création et réalisation graphique 2D et 3D, assemblage de niveaux, traitement 
 1992
 Infographiste, coloriste et montage d’animation «Little Big One», W St Lambert.
 1989-97
-Gérant d’agence hippique «Tiercé franco-belge»,
+Gérant d’agence hippique «Tiercé franco-belge».
 
 Compétences
 Software: 
@@ -27,7 +27,7 @@ Adobe Photoshop, InDesign, Illustrator,...
 Code:
 HTML, CSS (FlexBox, Grid Layout,...), PHP/MySQL (CRUD/PDO), MVC, Javascript, DOM, Canvas, jQuery, BootStrap.
 Système:
-Mac OS, Windows, Ubuntu/Linux
+Mac OS, Windows, Ubuntu/Linux.
 	
 Formation
 2017-2018
